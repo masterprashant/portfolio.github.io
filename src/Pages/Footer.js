@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 import React from "react";
 
-function Footer() {
+export default function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
@@ -209,4 +209,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+

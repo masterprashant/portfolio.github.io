@@ -1,23 +1,26 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./Pages/Home/Navbar";
-import Home from "./Pages/Home/Homescreen";
-import HeroSection from "../HeroSection";
+import Navbar from "./Pages/Navbar";
+import HeroSection from "./Pages/HeroSection";
+import AboutMe from "./Pages/AboutMe";
+import MySkills from "./Pages/MySkills";
+import ContactMe from "./Pages/ContactMe";
+import Footer from "./Pages/Footer";
 function App() {
   return (
     <div className="App">
-      <Router>
+      
         <div>
           <Navbar />
         <HeroSection />
-
-          <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="*" element={<div>404 Not Found</div>}></Route>
-          </Routes>
+      <AboutMe />
+      <MySkills />
+      <ContactMe/>
+      <Footer/>
+          
         </div>
-      </Router>
+    
     </div>
   );
 }

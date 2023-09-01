@@ -1,5 +1,5 @@
 import { Cursor , useTypewriter } from 'react-simple-typewriter'
-
+import hero from "../image/hero1.png"
 
 export default function HeroSection() {
 
@@ -27,7 +27,7 @@ export default function HeroSection() {
         <button className="btn btn-primary"><a className='resume' href='prashantresume.pdf' download="prashantprajapatiresume.pdf">Download Resume</a></button>
       </div>
       <div className="hero--section--img">
-        <img src="./img/hero1.png" alt="Hero Section" />
+        <img src={hero}/>
       </div>
     </section>
   );

@@ -1,8 +1,9 @@
+
 {
-  "skills": [
+  "skills":[
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
+      "picture": "./image/product-chain-1.png",
       "title": "Web Development",
       "description": "Highlight your expertise in both front-end and back-end web development. Mention the technologies you are proficient in, such as HTML, CSS, JavaScript, and  relevant frameworks React js."
     },

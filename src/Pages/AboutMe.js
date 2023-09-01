@@ -2,6 +2,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
+import about from "../image/about.png"
 
 export default function AboutMe() {
   return (<div>
@@ -12,7 +13,7 @@ export default function AboutMe() {
      
     <section id="AboutMe" className="about--section">
       <div className="about--section--img">
-        <img src="./img/about.png" alt="About Me" />
+        <img src={about} alt="About Me" />
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
